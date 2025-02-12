@@ -2,6 +2,7 @@ name: UHB Deployment Workflow Scheduler
 on:
   schedule:
     - cron: "50 18 * * *"
+  workflow_dispatch: {}
 
 env:
   GIT_NAME: "${{ secrets.GIT_BOT_NAME }}"
@@ -17,12 +18,12 @@ jobs:
       fail-fast: false
       matrix:
         python_version:
-          - "3.9.1"
+          - "3.11"
         os:
           - ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         name: Clone repository
         with:
           token: "${{ secrets.BOT_REPO_PAT }}"

@@ -6,7 +6,7 @@ The Ultimate Hosts Blacklist (UHB) is undoubtedly one of the world's largest
 curated and unified hosts file to protect your network, computer, device,
 children, or family against over several hundred thousand malicious actors.
 
-All oue information is gathered from multiple sources, tested regularly and
+All our information is gathered from multiple sources, tested regularly and
 merged into one massive file which is updated daily.
 Our hosts can be used on almost all operating system but we also propose 2 DNS
 servers that ingest and block the bad actor as good - if not better - than a
@@ -20,10 +20,10 @@ hosts file.
 
 ---
 
-- Version: **V2.1046.2022.11.21**
-- Total Bad domains in `hosts` file: **636,196**
-- Total Bad IP in `hosts.deny` file: **140,481**
-- Total Bad domains and IP in `superhosts.deny` file: **776,677**
+- Version: **V2.2659.2025.02.12**
+- Total Bad domains in `hosts` file: **758,571**
+- Total Bad IP in `hosts.deny` file: **148,497**
+- Total Bad domains and IP in `superhosts.deny` file: **907,068**
 
   :exclamation: **Yes you did indeed read those numbers correctly** :exclamation:
 
@@ -83,10 +83,10 @@ follow/subscribe to the
 
 **NOTICE: THIS IS THE RECOMMENDED METHOD FOR WINDOWS USER.**
 
-| DNS Name | safedns.allover.co.za   | safedns2.allover.co.za  |
-| -------- | ----------------------- | ----------------------- |
-| IPv4     | `88.198.70.38`          | `88.198.70.39`          |
-| IPv6     | `2a01:4f8:140:5021::38` | `2a01:4f8:140:5021::39` |
+| DNS Name | safedns.allover.co.za   | safedns2.allover.co.za  | Ports        |
+| -------- | ----------------------- | ----------------------- | ------------ |
+| IPv4     | `88.198.70.38`          | `88.198.70.39`          | `53`, `5353` |
+| IPv6     | `2a01:4f8:140:5021::38` | `2a01:4f8:140:5021::39` | `53`, `5353` |
 
 ---
 
@@ -145,7 +145,7 @@ listed domains.
 For example, to drop all requests to certain domains or servers, adding lines
 to your `hosts` file as below will achieve this for you.
 You can create your custom hosts or simply use ours which covers you for
-well over 636,196 bad domains.
+well over 758,571 bad domains.
 
 ```
 # Block Bad Domains and Servers with Hosts File
@@ -222,7 +222,7 @@ modify the `hosts` file.
 
 **Linux, Mac OS X, iOS, Android**: `/etc/hosts.deny`
 
-**Windows Systems _(NOT RECOMMENDED: PREFER DNS SERVER)_**: `%SystemRoot%\system32\drivers\etc\hosts` **[Try the Windows Installer Batch Script](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/blob/master/windows-install-hosts.bat)**
+**Windows Systems _(NOT RECOMMENDED: PREFER DNS SERVER)_**: `%SystemRoot%\system32\drivers\etc\hosts` **[Try the Windows Installer Batch Script](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/blob/master/Installer-Windows/windows-install-hosts.bat)**
 
 ---
 
@@ -266,6 +266,7 @@ The sources of the input data information are as follows.
 | quidsup_malicious-sites | [Link](https://github.com/Ultimate-Hosts-Blacklist/quidsup_malicious-sites) | [Link](https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/malware.list) |
 | quidsup_notrack_trackers | [Link](https://github.com/Ultimate-Hosts-Blacklist/quidsup_notrack_trackers) | [Link](https://gitlab.com/quidsup/notrack-blocklists/-/raw/master/trackers.list) |
 | smed79_blacklist | [Link](https://github.com/Ultimate-Hosts-Blacklist/smed79_blacklist) | [Link](https://raw.githubusercontent.com/smed79/blacklist/master/hosts.txt) |
+| someonewhocares.org | [Link](https://github.com/Ultimate-Hosts-Blacklist/someonewhocares.org) | [Link](https://someonewhocares.org/hosts/zero/hosts) |
 | Spam404 | [Link](https://github.com/Ultimate-Hosts-Blacklist/Spam404) | [Link](https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt) |
 | SSH_attackers_probers | [Link](https://github.com/Ultimate-Hosts-Blacklist/SSH_attackers_probers) | [Link]() |
 | Suspicious.Snooping.Sniffing.Hacking.IP.Addresses | [Link](https://github.com/Ultimate-Hosts-Blacklist/Suspicious.Snooping.Sniffing.Hacking.IP.Addresses) | [Link](https://raw.githubusercontent.com/mitchellkrogza/Suspicious.Snooping.Sniffing.Hacking.IP.Addresses/master/ips.list) |
@@ -336,9 +337,9 @@ Come drop by and visit [Mitchell's Portfolio](https://mitchellkrog.com).
 ```
 MIT License
 
-Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022 Ultimate Hosts Blacklist - @Ultimate-Hosts-Blacklist
-Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022 Mitchell Krog - @mitchellkrogza
-Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022 Nissar Chababy - @funilrys
+Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Ultimate Hosts Blacklist - @Ultimate-Hosts-Blacklist Contributors
+Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Mitchell Krog - @mitchellkrogza
+Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Nissar Chababy - @funilrys
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

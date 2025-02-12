@@ -6,7 +6,7 @@ The Ultimate Hosts Blacklist (UHB) is undoubtedly one of the world's largest
 curated and unified hosts file to protect your network, computer, device,
 children, or family against over several hundred thousand malicious actors.
 
-All oue information is gathered from multiple sources, tested regularly and
+All our information is gathered from multiple sources, tested regularly and
 merged into one massive file which is updated daily.
 Our hosts can be used on almost all operating system but we also propose 2 DNS
 servers that ingest and block the bad actor as good - if not better - than a
@@ -83,10 +83,10 @@ follow/subscribe to the
 
 **NOTICE: THIS IS THE RECOMMENDED METHOD FOR WINDOWS USER.**
 
-| DNS Name | safedns.allover.co.za   | safedns2.allover.co.za  |
-| -------- | ----------------------- | ----------------------- |
-| IPv4     | `88.198.70.38`          | `88.198.70.39`          |
-| IPv6     | `2a01:4f8:140:5021::38` | `2a01:4f8:140:5021::39` |
+| DNS Name | safedns.allover.co.za   | safedns2.allover.co.za  | Ports        |
+| -------- | ----------------------- | ----------------------- | ------------ |
+| IPv4     | `88.198.70.38`          | `88.198.70.39`          | `53`, `5353` |
+| IPv6     | `2a01:4f8:140:5021::38` | `2a01:4f8:140:5021::39` | `53`, `5353` |
 
 ---
 
@@ -222,7 +222,7 @@ modify the `hosts` file.
 
 **Linux, Mac OS X, iOS, Android**: `/etc/hosts.deny`
 
-**Windows Systems _(NOT RECOMMENDED: PREFER DNS SERVER)_**: `%SystemRoot%\system32\drivers\etc\hosts` **[Try the Windows Installer Batch Script](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/blob/master/windows-install-hosts.bat)**
+**Windows Systems _(NOT RECOMMENDED: PREFER DNS SERVER)_**: `%SystemRoot%\system32\drivers\etc\hosts` **[Try the Windows Installer Batch Script](https://github.com/Ultimate-Hosts-Blacklist/Ultimate.Hosts.Blacklist/blob/master/Installer-Windows/windows-install-hosts.bat)**
 
 ---
 
@@ -293,9 +293,9 @@ Come drop by and visit [Mitchell's Portfolio](https://mitchellkrog.com).
 ```
 MIT License
 
-Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022 Ultimate Hosts Blacklist - @Ultimate-Hosts-Blacklist
-Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022 Mitchell Krog - @mitchellkrogza
-Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022 Nissar Chababy - @funilrys
+Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Ultimate Hosts Blacklist - @Ultimate-Hosts-Blacklist Contributors
+Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Mitchell Krog - @mitchellkrogza
+Copyright (c) 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024 Nissar Chababy - @funilrys
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
